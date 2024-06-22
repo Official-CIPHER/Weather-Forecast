@@ -22,7 +22,7 @@ function App() {
       const data = await getFormattedWeatherData(city, units);
       setWeather(data);
 
-      console.log(data);
+      // console.log(data);
 
       //dynamic backgroundImage
       const threshold = units === "metric" ? 20 : 60;
